@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Node / TypeScript
+node_modules/
+deployment/video-moment-seeker/node_modules/
+deployment/video-moment-seeker/dist/
+deployment/video-moment-seeker/dist-ssr/
+deployment/video-moment-seeker/*.local
+deployment/video-moment-seeker/.env
+
+# Checkpoints
+checkpoints/*.pth
+checkpoints/*.ckpt
+checkpoints/*.pt
+!checkpoints/README.md
+
+# Datasets (downloaded, not mirrored)
+datasets/*/
+!datasets/README.md
+
+# Logs
+logs/
+*.log
+tensorboard/
+wandb/
+
+# IDE
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Cache
+.cache/
+*.cache

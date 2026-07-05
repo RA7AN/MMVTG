@@ -1,0 +1,16 @@
+# Core Dependencies
+# TODO: Populate with exact versions once verified
+# torch>=2.0.0
+# torchvision>=0.15.0
+# transformers>=4.30.0
+# opencv-python>=4.8.0
+# pandas>=2.0.0
+# numpy>=1.24.0
+# tqdm>=4.65.0
+# wandb>=0.15.0
+# tensorboard>=2.13.0
+
+# Development
+# pytest>=7.4.0
+# black>=23.7.0
+# flake8>=6.1.0
