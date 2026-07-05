@@ -8,5 +8,6 @@ Contains visual assets, figures, and media used in documentation.
 
 ```
 assets/
-└── figures/    # Research and architecture figures
+├── Diagrams/         # Architecture and system diagrams
+└── MVP_Screenshots/  # Deployment app screenshots
 ```

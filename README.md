@@ -9,7 +9,8 @@ This repository is the official research companion for our published paper. It e
 ## News
 
 - **[2025] Paper released**
-- **[2025] Code & checkpoints open-sourced**
+- **[2025] Code open-sourced**
+- **[2025] Model checkpoints released on [Hugging Face](https://huggingface.co/ra7an/mmvtg)**
 
 ---
 
@@ -60,7 +61,7 @@ A full-stack TypeScript application (`deployment/video-moment-seeker/`) providin
 
 ### Additional Resources
 - End-to-end Colab notebooks for reproduction
-- Released model checkpoints (pending upload)
+- Released model checkpoints on [Hugging Face](https://huggingface.co/ra7an/mmvtg)
 - Paper companion documentation
 
 ---
@@ -78,7 +79,8 @@ A full-stack TypeScript application (`deployment/video-moment-seeker/`) providin
 ├── paper/                      # Paper assets (PDF, supplementary, citation)
 ├── docs/                       # Documentation and design docs
 ├── assets/                     # Figures and visual assets
-│   └── figures/
+│   ├── Diagrams/               # Architecture and system diagrams
+│   └── MVP_Screenshots/        # Deployment app screenshots
 ├── research/                   # Research implementation
 │   └── moment_detr/            # Moment-DETR + MMVTG extensions
 ├── notebooks/                  # Jupyter notebooks for reproduction
@@ -101,8 +103,8 @@ A full-stack TypeScript application (`deployment/video-moment-seeker/`) providin
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-org/mmvtg
-cd mmvtg
+git clone https://github.com/RA7AN/MMVTG.git
+cd MMVTG
 
 # Install Python dependencies
 pip install -r requirements.txt
@@ -194,7 +196,13 @@ npm run dev
 
 ## Released Checkpoints
 
-> **TODO:** Upload pretrained and fine-tuned checkpoints. See `checkpoints/` for details.
+Checkpoint files are hosted on [Hugging Face](https://huggingface.co/ra7an/mmvtg) due to size constraints. See `checkpoints/README.md` for details.
+
+| Checkpoint | Description | Download |
+|---|---|---|
+| `mmvtg-pretrained-asr.ckpt` | Weakly-supervised ASR pretrained model | [Hugging Face](https://huggingface.co/ra7an/mmvtg/blob/main/mmvtg-pretrained-asr.ckpt) |
+| `mmvtg-finetuned-qvhighlights.ckpt` | Fine-tuned on QVHighlights | [Hugging Face](https://huggingface.co/ra7an/mmvtg/blob/main/mmvtg-finetuned-qvhighlights.ckpt) |
+| `mvtg-best-val.ckpt` | Best validation checkpoint | [Hugging Face](https://huggingface.co/ra7an/mmvtg/blob/main/mvtg-best-val.ckpt) |
 
 ---
 
@@ -260,8 +268,8 @@ This work builds upon [Moment-DETR](https://github.com/jayleicn/moment-deter) by
 
 - [ ] Upload paper PDF and supplementary
 - [ ] Integrate Moment-DETR research code into `research/moment_detr/`
-- [ ] Release pretrained and fine-tuned checkpoints
-- [ ] Upload pipeline and architecture figures
+- [x] Release pretrained and fine-tuned checkpoints
+- [x] Upload architecture and system diagrams
 - [ ] Complete notebook tutorials
 - [ ] Add training configuration files
 - [ ] Set up CI/CD
