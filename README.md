@@ -8,9 +8,9 @@ This repository is the official research companion for our published paper. It e
 
 ## News
 
-- **[2025] Paper released**
-- **[2025] Code open-sourced**
-- **[2025] Model checkpoints released on [Hugging Face](https://huggingface.co/ra7an/mmvtg)**
+- **[2026] Paper released**
+- **[2026] Code open-sourced**
+- **[2026] Model checkpoints released on [Hugging Face](https://huggingface.co/ra7an/mmvtg)**
 
 ---
 
